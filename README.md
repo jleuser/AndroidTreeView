@@ -1,6 +1,27 @@
 AndroidTreeView
 ====================
 
+[![Release](https://jitpack.io/v/jleuser/AndroidTreeView.svg)]
+(https://jitpack.io/#jleuser/AndroidTreeView)
+
+This is a fork of the original [AndroidTreeView](https://github.com/bmelnychuk/AndroidTreeView) library provided by [Bogdan Melnychuk](https://github.com/bmelnychuk).
+
+Compared to the original library, some of the pull requests to the original library have been merged into this version.
+
+This fork can be used in your build files thanks to jitpack.io. You have to add these lines in your `build.gradle` file:
+
+ ```java
+ repositories {
+     maven { url "https://jitpack.io" }
+ }
+
+ dependencies {
+ 	  compile 'com.github.jleuser:AndroidTreeView:1.4.0'
+ }
+ ```
+
+## Original readme
+
 ### Recent changes
 
 
@@ -43,7 +64,7 @@ Tree view implementation for android
 
 ### Integration
 
-**1)** Add library as a dependency to your project 
+**1)** Add library as a dependency to your project
 
 ```compile 'com.github.bmelnychuk:atv:1.2.+'```
 
@@ -62,10 +83,10 @@ Create and add your nodes (use your custom object as constructor param)
 ```
 
 **3)** Add tree view to layout
-```java 
+```java
  AndroidTreeView tView = new AndroidTreeView(getActivity(), root);
  containerView.addView(tView.getView());
-``` 
+```
 The simplest but not styled tree is ready. Now you can see ```parent``` node as root of your tree
 
 **4)** Custom view for nodes
@@ -80,7 +101,7 @@ public class MyHolder extends TreeNode.BaseNodeViewHolder<IconTreeItem> {
         final View view = inflater.inflate(R.layout.layout_profile_node, null, false);
         TextView tvValue = (TextView) view.findViewById(R.id.node_value);
         tvValue.setText(value.text);
-        
+
         return view;
     }
     ...
@@ -91,14 +112,14 @@ public class MyHolder extends TreeNode.BaseNodeViewHolder<IconTreeItem> {
 }
 ```
 
-**5)** Connect view holder with node 
-```java 
+**5)** Connect view holder with node
+```java
   IconTreeItem nodeItem = new IconTreeItem();
   TreeNode child1 = new TreeNode(nodeItem).setViewHolder(new MyHolder(mContext));
 ```
 
-**6)** Consider using 
-```java 
+**6)** Consider using
+```java
 TreeNode.setClickListener(TreeNodeClickListener listener);
 AndroidTreeView.setDefaultViewHolder
 AndroidTreeView.setDefaultNodeClickListener
