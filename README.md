@@ -10,13 +10,13 @@ Compared to the original library, some of the pull requests to the original libr
 This fork can be used in your build files thanks to jitpack.io. You have to add these lines in your `build.gradle` file:
 
  ```java
- repositories {
-     maven { url "https://jitpack.io" }
- }
+repositories {
+  maven { url "https://jitpack.io" }
+}
 
- dependencies {
- 	  compile 'com.github.jleuser:AndroidTreeView:1.4.0'
- }
+dependencies {
+  implementation 'com.github.jleuser:AndroidTreeView:v1.4.0'
+}
  ```
 
 ## Original readme
