@@ -1,7 +1,8 @@
 AndroidTreeView
 ====================
 
-(https://jitpack.io/v/jleuser/AndroidTreeView.svg)[https://jitpack.io/#jleuser/AndroidTreeView]
+[![Release](https://jitpack.io/v/jleuser/AndroidTreeView.svg)]]
+(https://jitpack.io/#jleuser/AndroidTreeView)
 
 This is a fork of the original [AndroidTreeView](https://github.com/bmelnychuk/AndroidTreeView) library provided by [Bogdan Melnychuk](https://github.com/bmelnychuk).
 
