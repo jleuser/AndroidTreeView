@@ -2,14 +2,14 @@ package com.unnamed.b.atv.sample.activity;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 
 import com.unnamed.b.atv.sample.R;
 
 /**
  * Created by Bogdan Melnychuk on 2/12/15.
  */
-public class SingleFragmentActivity extends ActionBarActivity {
+public class SingleFragmentActivity extends AppCompatActivity {
     public final static String FRAGMENT_PARAM = "fragment";
 
     @Override
