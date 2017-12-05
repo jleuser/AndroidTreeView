@@ -68,7 +68,7 @@ Latest released version of original AndroidTreeView before fork.
 
 ## [v1.2.4] - 2015-04-11
 ### Fixed
-*   Different padding issues: bmelnychuk/AndroidTreeView#1, bmelnychuk/AndroidTreeView#11 [Padding issues](https://github.com/bmelnychuk/AndroidTreeView/issues/1), [Padding left on android < 5.0](https://github.com/bmelnychuk/AndroidTreeView/issues/11)
+*   Different padding issues: [Padding issues](https://github.com/bmelnychuk/AndroidTreeView/issues/1), [Padding left on android < 5.0](https://github.com/bmelnychuk/AndroidTreeView/issues/11)
 
 
 ## [v1.2.3] - 2015-03-21
