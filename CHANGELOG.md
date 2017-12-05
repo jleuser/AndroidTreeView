@@ -96,5 +96,20 @@ Latest released version of original AndroidTreeView before fork.
 *   Selection mode for nodes
 
 
-## [v1.0.0] - 2015-02-14
+## v1.0.0 - 2015-02-14
 Initial version
+
+
+[Unreleased]: https://github.com/jleuser/AndroidTreeView/compare/v1.4.0...HEAD
+[v1.4.0]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.9...v1.4.0
+[v1.2.9]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.8...v1.2.9
+[v1.2.8]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.7...v1.2.8
+[v1.2.7]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.6...v1.2.7
+[v1.2.6]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.5...v1.2.6
+[v1.2.5]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.4...v1.2.5
+[v1.2.4]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.3...v1.2.4
+[v1.2.3]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.2...v1.2.3
+[v1.2.2]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.1...v1.2.2
+[v1.2.1]: https://github.com/jleuser/AndroidTreeView/compare/v1.2.0...v1.2.1
+[v1.2.0]: https://github.com/jleuser/AndroidTreeView/compare/v1.1.0...v1.2.0
+[v1.1.0]: https://github.com/jleuser/AndroidTreeView/compare/v1.0.0...v1.1.0
